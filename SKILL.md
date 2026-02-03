@@ -84,8 +84,7 @@ cd intercom
 npm install
 ```
 
-If you see **Invalid key pair** or **null Peer Address** on startup, your dependency tree likely pulled the plaintext `trac-wallet@0.0.43`.  
-Fix by **forcing** `trac-wallet@0.0.43-msb-r2.8` via npm overrides and reinstall:
+Important: Enforce to use the latest trac-wallet `trac-wallet@0.0.43-msb-r2.8` via npm overrides:
 ```bash
 npm pkg set overrides.trac-wallet=0.0.43-msb-r2.8
 rm -rf node_modules package-lock.json
