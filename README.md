@@ -35,4 +35,3 @@ BridgeChat/
 TRAC Address:  
 trac1f7t27ev8katl9rjpnwpx9zl7eygykx77y4dhg2hyqx3nepqtau8qeagz8y  
 
-MIT License
